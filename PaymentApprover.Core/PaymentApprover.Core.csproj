@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DataApprover.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="EntityConfiguration" />
+      <Folder Include="DomainModel" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.3.23174.2" />
+    </ItemGroup>
+
+</Project>
